@@ -1,0 +1,103 @@
+
+
+.form {
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.name__input {
+    width: 350px;
+    height: 34px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.src__input {
+    width: 350px;
+    height: 34px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+
+.button__container {
+    display: flex;
+    gap: 15px;
+}
+
+.male__button {
+    width: 77px;
+    height: 24px;
+    border: 1px solid greenyellow;
+    color: greenyellow;
+    background: transparent;
+    outline: none;
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+
+.male__button:hover {
+    box-shadow: 0 4px 30px rgba(146, 241, 37, 0.973);
+}
+
+
+
+.female__button {
+    width: 77px;
+    height: 24px;
+    border: 1px solid rgb(218, 46, 203);
+    color: #da2ecb;
+    background: transparent;
+    outline: none;
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
+}
+
+.female__button:hover {
+    box-shadow: 0 4px 30px rgba(218, 46, 203, 0.973);
+}
+
+
+.add__button {
+    width: 185px;
+    height: 33px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #09ccbc;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 22px;
+}
+
+
